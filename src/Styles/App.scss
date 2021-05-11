@@ -1,0 +1,38 @@
+@import "./variables.scss";
+
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.app__main{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.app__main--central {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.app__main--right {
+  flex-basis: 100px;
+  flex-shrink: 0;
+}
+
+
+.app__overlay {
+  position: absolute;
+  width: 100%;
+  min-height: 45vh;
+  max-height: 400px;
+  z-index: -1;
+
+  background: grey;
+}
+
+.app__light-button {
+  all: unset;
+  cursor: pointer;
+}

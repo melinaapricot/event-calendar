@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+.header {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  margin-bottom: 40px;
+
+}
+
+.header__line{
+  border-bottom: 2px solid gray;
+  flex-grow: 3;
+
+
+
+}
+.header__logo {
+  font-size: 72px;
+  font-weight: bold;
+  color: gray;
+  flex-grow: 1;
+  font-family: 'PT Mono', monospace;
+
+}

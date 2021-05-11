@@ -1,0 +1,32 @@
+.event-editor {
+  &__form {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  &__inputs-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__input-group {
+    flex-grow: 1;
+    margin: 0 15px;
+  }
+
+  &__submit-wrapper {
+    text-align: right;
+  }
+
+  &__date-input {
+    width: 30px;
+    min-width: 30px;
+    margin-right: 8px;
+  }
+
+  &__input-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+}
